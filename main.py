@@ -1,4 +1,4 @@
-
+import random
 #Part A
 weeks = 16
 classes = 5
@@ -15,3 +15,5 @@ print(cost_per_week, type(cost_per_week))
 print(classes_per_week, type(classes_per_week))
 print(cost_per_class, type(cost_per_class))
 #Part B
+random_list=1,2.0,3.5,6.3,9,11.27,12,13.336,"15"
+print(random.choice(random_list))
